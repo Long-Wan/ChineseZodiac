@@ -1,0 +1,76 @@
+body
+{
+	background-image: url("images/pattern.png");
+	background-size: cover;
+	font-family: Arial, Sans-serif;
+	color: yellow;
+	margin: auto;
+	width: 80%;	
+}
+#header
+{
+	width: 100%;
+	margin-top: 5%;
+}
+h1
+{
+	text-align: center;
+	font-style: italic;
+}
+h2
+{
+	text-align: center;
+	font-style: italic;
+}
+.nav ul
+{
+	text-align: center;
+	margin: auto;
+}
+.nav ul li
+{
+	display: inline;
+}
+.nav ul li:hover
+{
+	opacity: 0.5;
+}
+.order
+{
+	padding-left: 50%;
+	padding-right: 50%;
+}
+.pic 
+{
+	display: block;
+	margin: auto;
+
+}
+.zodiacList
+{
+	padding-left: 20%;
+	padding-right: 20%
+}
+table
+{
+	margin: auto;
+	border: 2px solid yellow;
+	border-spacing: 5px;
+}
+div.signmargin a>img
+{
+	margin: 10px;
+}
+#signs
+{
+	text-align: center;
+	margin: auto;
+}
+#footer
+{
+	font-size: small;
+	text-align: center;
+	background : yellow;
+	color: red;
+	margin-top: 10%;	
+}
