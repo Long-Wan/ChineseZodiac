@@ -7,5 +7,6 @@ All webpages are complete.
 Nothing incomplete.
 
 Major Challenges:
-Centerting parts of the webpage ie. images, lists.
+Centering contents of the navbar.
+Creating "hambuger menu" for the navbar. 
 
