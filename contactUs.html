@@ -49,7 +49,7 @@
 		<div class="forms">
 			<h1>Contact Us</h1>
 			<form action="http://php.vncvr.ca/zodiac/" method="post" id="contactUs">
-				<table>
+				<table class="visible-sm-up hidden-xs">
 					<tr>
 						<td><label>Name: </label></td>
 						<td><input name="Name" type="text" id ="Name" maxlength="50" size="44" /></td>
@@ -60,11 +60,34 @@
 					</tr>
 					<tr>
 						<td><label>Comment: </label></td>
-						<td><textarea name="Comment" cols="45" rows="6"></textarea></td>
+						<td><textarea name="Comment" cols="46" rows="6"></textarea></td>
 					</tr>
 					<tr>
 						<td></td>
 						<td><input type="submit" value="Submit" class="button" /></td>
+					</tr>
+					<tr>
+						<td><input type="hidden" name="Student1Name" value="Wan Long" /></td>
+						<td><input type="hidden" name="Student2Name" value="Hu Yi" /></td>
+						<td><input type="hidden" name="Set" value="c" /></td>
+					</tr>
+				</table>
+				<table class="hidden-xs-up visible-xs">
+					<tr>
+						<td><label>Name: </label></td>
+						<td><input class="xsmall" name="Name" type="text" id ="Name" maxlength="50" size="40" /></td>
+					</tr>
+					<tr>
+						<td><label>Email Address: </label></td>
+						<td><input class="xsmall" name="Email" type="text" id="Email" size="40" /></td>
+					</tr>
+					<tr>
+						<td><label>Comment: </label></td>
+						<td><textarea class="xsmall" name="Comment" cols="42" rows="3"></textarea></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Submit" class="button" id="submitButton"/></td>
 					</tr>
 					<tr>
 						<td><input type="hidden" name="Student1Name" value="Wan Long" /></td>
