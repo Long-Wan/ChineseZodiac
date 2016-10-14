@@ -51,6 +51,7 @@ table
 	margin: auto;
 	border: 2px solid yellow;
 	border-spacing: 5px;
+	border-collapse: separate;
 }
 div.signmargin a>img
 {
