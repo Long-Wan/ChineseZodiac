@@ -57,7 +57,7 @@ div.signmargin a>img
 {
 	margin: 10px;
 }
-#signs
+.signs
 {
 	text-align: center;
 	margin: auto;
@@ -78,7 +78,7 @@ form .xsmall {
 	width: 100%;
 }
 
-#submitButton {
+.submitButton {
 	color: black;
 }
 #order {
