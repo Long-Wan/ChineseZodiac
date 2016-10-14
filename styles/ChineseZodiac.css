@@ -22,16 +22,16 @@ h2
 	text-align: center;
 	font-style: italic;
 }
-.nav ul
+nav ul
 {
 	text-align: center;
 	margin: auto;
 }
-.nav ul li
+nav ul li
 {
 	display: inline;
 }
-.nav ul li:hover
+nav ul li:hover
 {
 	opacity: 0.5;
 }
@@ -62,7 +62,7 @@ div.signmargin a>img
 	text-align: center;
 	margin: auto;
 }
-#footer
+footer
 {
 	font-size: small;
 	text-align: center;
@@ -80,4 +80,8 @@ form .xsmall {
 
 #submitButton {
 	color: black;
+}
+#order {
+	padding-left: 50%;
+	padding-right: 50%;
 }
