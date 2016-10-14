@@ -73,3 +73,11 @@ div.signmargin a>img
 .icon-bar {
 	background-color: yellow;
 }
+
+form .xsmall {
+	width: 100%;
+}
+
+#submitButton {
+	color: black;
+}
